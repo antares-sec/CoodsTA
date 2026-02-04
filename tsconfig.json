@@ -13,7 +13,7 @@
     "esModuleInterop": true,
   
     "target": "es2023",
-    "types": ["node"],
+    "types": ["node", "jest"],
     // For nodejs:
     // "lib": ["esnext"],
     // "types": ["node"],
@@ -44,5 +44,10 @@
     "noUncheckedSideEffectImports": true,
     "moduleDetection": "force",
     "skipLibCheck": true,
-  }
+  },
+  "include": [
+    "src",
+    "tests",
+    "tests/domain"
+  ]
 }
