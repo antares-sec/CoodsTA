@@ -1,168 +1,795 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1770179342121" clover="3.2.0">
-  <project timestamp="1770179342121" name="All files">
-    <metrics statements="121" coveredstatements="81" conditionals="49" coveredconditionals="29" methods="57" coveredmethods="33" elements="227" coveredelements="143" complexity="0" loc="121" ncloc="121" packages="5" files="9" classes="9"/>
-    <package name="module.domain.authentication">
-      <metrics statements="26" coveredstatements="18" conditionals="4" coveredconditionals="3" methods="14" coveredmethods="7"/>
-      <file name="User.ts" path="/home/antares/Documents/coodsTA/backbone/src/module/domain/authentication/User.ts">
-        <metrics statements="26" coveredstatements="18" conditionals="4" coveredconditionals="3" methods="14" coveredmethods="7"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="2" count="1" type="stmt"/>
+<coverage generated="1770190243573" clover="3.2.0">
+  <project timestamp="1770190243573" name="All files">
+    <metrics statements="607" coveredstatements="600" conditionals="284" coveredconditionals="271" methods="228" coveredmethods="227" elements="1119" coveredelements="1098" complexity="0" loc="607" ncloc="607" packages="24" files="37" classes="37"/>
+    <package name="module.applications.authentication">
+      <metrics statements="36" coveredstatements="36" conditionals="26" coveredconditionals="26" methods="4" coveredmethods="4"/>
+      <file name="LoginUsecase.ts" path="/home/antares/Documents/proj/CoodsTA/src/module/applications/authentication/LoginUsecase.ts">
+        <metrics statements="18" coveredstatements="18" conditionals="12" coveredconditionals="12" methods="2" coveredmethods="2"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="29" count="1" type="stmt"/>
+        <line num="31" count="12" type="stmt"/>
+        <line num="32" count="12" type="stmt"/>
+        <line num="33" count="12" type="stmt"/>
+        <line num="38" count="12" type="cond" truecount="4" falsecount="0"/>
+        <line num="39" count="3" type="stmt"/>
+        <line num="41" count="9" type="cond" truecount="4" falsecount="0"/>
+        <line num="42" count="3" type="stmt"/>
+        <line num="46" count="6" type="stmt"/>
+        <line num="47" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="48" count="1" type="stmt"/>
+        <line num="52" count="5" type="stmt"/>
+        <line num="53" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="54" count="1" type="stmt"/>
+        <line num="58" count="4" type="stmt"/>
+        <line num="65" count="4" type="stmt"/>
+        <line num="67" count="4" type="stmt"/>
+      </file>
+      <file name="RegisterUsecase.ts" path="/home/antares/Documents/proj/CoodsTA/src/module/applications/authentication/RegisterUsecase.ts">
+        <metrics statements="18" coveredstatements="18" conditionals="14" coveredconditionals="14" methods="2" coveredmethods="2"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="20" count="15" type="stmt"/>
+        <line num="21" count="15" type="stmt"/>
+        <line num="25" count="15" type="cond" truecount="4" falsecount="0"/>
+        <line num="26" count="3" type="stmt"/>
+        <line num="28" count="12" type="cond" truecount="4" falsecount="0"/>
+        <line num="29" count="3" type="stmt"/>
+        <line num="31" count="9" type="cond" truecount="4" falsecount="0"/>
+        <line num="32" count="3" type="stmt"/>
+        <line num="36" count="6" type="stmt"/>
+        <line num="37" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="38" count="1" type="stmt"/>
+        <line num="42" count="5" type="stmt"/>
+        <line num="45" count="5" type="stmt"/>
+        <line num="56" count="5" type="stmt"/>
+        <line num="58" count="5" type="stmt"/>
+      </file>
+    </package>
+    <package name="module.applications.model">
+      <metrics statements="28" coveredstatements="28" conditionals="18" coveredconditionals="18" methods="2" coveredmethods="2"/>
+      <file name="UploadModelUsecase.ts" path="/home/antares/Documents/proj/CoodsTA/src/module/applications/model/UploadModelUsecase.ts">
+        <metrics statements="28" coveredstatements="28" conditionals="18" coveredconditionals="18" methods="2" coveredmethods="2"/>
         <line num="3" count="1" type="stmt"/>
         <line num="4" count="1" type="stmt"/>
         <line num="5" count="1" type="stmt"/>
-        <line num="26" count="1" type="stmt"/>
-        <line num="28" count="2" type="stmt"/>
-        <line num="32" count="0" type="stmt"/>
+        <line num="39" count="1" type="stmt"/>
+        <line num="41" count="11" type="stmt"/>
+        <line num="42" count="11" type="stmt"/>
+        <line num="47" count="11" type="cond" truecount="2" falsecount="0"/>
+        <line num="48" count="1" type="stmt"/>
+        <line num="50" count="10" type="cond" truecount="4" falsecount="0"/>
+        <line num="51" count="2" type="stmt"/>
+        <line num="53" count="8" type="cond" truecount="4" falsecount="0"/>
+        <line num="54" count="2" type="stmt"/>
+        <line num="56" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="57" count="1" type="stmt"/>
+        <line num="61" count="5" type="stmt"/>
+        <line num="67" count="5" type="stmt"/>
+        <line num="69" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="70" count="4" type="stmt"/>
+        <line num="71" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="72" count="1" type="stmt"/>
+        <line num="81" count="1" type="stmt"/>
+        <line num="86" count="5" type="stmt"/>
+        <line num="87" count="5" type="stmt"/>
+        <line num="98" count="5" type="stmt"/>
+        <line num="101" count="4" type="stmt"/>
+        <line num="103" count="4" type="stmt"/>
+        <line num="110" count="1" type="stmt"/>
+        <line num="111" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="module.applications.product">
+      <metrics statements="21" coveredstatements="21" conditionals="10" coveredconditionals="10" methods="2" coveredmethods="2"/>
+      <file name="UploadProductUsecase.ts" path="/home/antares/Documents/proj/CoodsTA/src/module/applications/product/UploadProductUsecase.ts">
+        <metrics statements="21" coveredstatements="21" conditionals="10" coveredconditionals="10" methods="2" coveredmethods="2"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="34" count="1" type="stmt"/>
+        <line num="36" count="13" type="stmt"/>
+        <line num="37" count="13" type="stmt"/>
+        <line num="42" count="13" type="cond" truecount="4" falsecount="0"/>
+        <line num="43" count="3" type="stmt"/>
+        <line num="45" count="10" type="cond" truecount="4" falsecount="0"/>
+        <line num="46" count="3" type="stmt"/>
+        <line num="48" count="7" type="cond" truecount="2" falsecount="0"/>
+        <line num="49" count="2" type="stmt"/>
+        <line num="53" count="5" type="stmt"/>
+        <line num="55" count="5" type="stmt"/>
+        <line num="57" count="5" type="stmt"/>
+        <line num="58" count="5" type="stmt"/>
+        <line num="67" count="5" type="stmt"/>
+        <line num="70" count="4" type="stmt"/>
+        <line num="72" count="4" type="stmt"/>
+        <line num="79" count="1" type="stmt"/>
+        <line num="80" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="module.applications.report">
+      <metrics statements="25" coveredstatements="25" conditionals="18" coveredconditionals="18" methods="2" coveredmethods="2"/>
+      <file name="SaveReportUsecase.ts" path="/home/antares/Documents/proj/CoodsTA/src/module/applications/report/SaveReportUsecase.ts">
+        <metrics statements="25" coveredstatements="25" conditionals="18" coveredconditionals="18" methods="2" coveredmethods="2"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
         <line num="36" count="1" type="stmt"/>
-        <line num="40" count="0" type="stmt"/>
-        <line num="44" count="1" type="stmt"/>
-        <line num="48" count="0" type="stmt"/>
-        <line num="52" count="2" type="stmt"/>
+        <line num="38" count="13" type="stmt"/>
+        <line num="39" count="13" type="stmt"/>
+        <line num="40" count="13" type="stmt"/>
+        <line num="45" count="13" type="cond" truecount="4" falsecount="0"/>
+        <line num="46" count="2" type="stmt"/>
+        <line num="48" count="11" type="cond" truecount="4" falsecount="0"/>
+        <line num="49" count="2" type="stmt"/>
+        <line num="51" count="9" type="cond" truecount="2" falsecount="0"/>
+        <line num="52" count="1" type="stmt"/>
+        <line num="54" count="8" type="cond" truecount="4" falsecount="0"/>
+        <line num="55" count="2" type="stmt"/>
+        <line num="59" count="6" type="stmt"/>
+        <line num="60" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="61" count="2" type="stmt"/>
+        <line num="65" count="4" type="stmt"/>
+        <line num="66" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="67" count="1" type="stmt"/>
+        <line num="71" count="3" type="stmt"/>
+        <line num="80" count="3" type="stmt"/>
+        <line num="83" count="3" type="stmt"/>
+        <line num="85" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="module.domain.authentication">
+      <metrics statements="26" coveredstatements="26" conditionals="4" coveredconditionals="4" methods="14" coveredmethods="14"/>
+      <file name="User.ts" path="/home/antares/Documents/proj/CoodsTA/src/module/domain/authentication/User.ts">
+        <metrics statements="26" coveredstatements="26" conditionals="4" coveredconditionals="4" methods="14" coveredmethods="14"/>
+        <line num="1" count="5" type="stmt"/>
+        <line num="2" count="5" type="stmt"/>
+        <line num="3" count="5" type="stmt"/>
+        <line num="4" count="5" type="stmt"/>
+        <line num="5" count="5" type="stmt"/>
+        <line num="26" count="5" type="stmt"/>
+        <line num="28" count="34" type="stmt"/>
+        <line num="32" count="24" type="stmt"/>
+        <line num="36" count="18" type="stmt"/>
+        <line num="40" count="1" type="stmt"/>
+        <line num="44" count="14" type="stmt"/>
+        <line num="48" count="1" type="stmt"/>
+        <line num="52" count="10" type="stmt"/>
+        <line num="56" count="5" type="stmt"/>
+        <line num="60" count="18" type="stmt"/>
+        <line num="64" count="1" type="stmt"/>
+        <line num="68" count="9" type="stmt"/>
+        <line num="72" count="9" type="stmt"/>
+        <line num="76" count="43" type="cond" truecount="2" falsecount="0"/>
+        <line num="77" count="3" type="stmt"/>
+        <line num="81" count="40" type="stmt"/>
+        <line num="82" count="38" type="stmt"/>
+        <line num="83" count="36" type="cond" truecount="2" falsecount="0"/>
+        <line num="86" count="35" type="stmt"/>
+        <line num="88" count="34" type="stmt"/>
+        <line num="102" count="11" type="stmt"/>
+      </file>
+    </package>
+    <package name="module.domain.authentication.mapper">
+      <metrics statements="8" coveredstatements="8" conditionals="4" coveredconditionals="4" methods="8" coveredmethods="8"/>
+      <file name="UserMap.ts" path="/home/antares/Documents/proj/CoodsTA/src/module/domain/authentication/mapper/UserMap.ts">
+        <metrics statements="8" coveredstatements="8" conditionals="4" coveredconditionals="4" methods="8" coveredmethods="8"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="24" count="2" type="stmt"/>
+        <line num="29" count="5" type="stmt"/>
+        <line num="43" count="1" type="stmt"/>
         <line num="56" count="1" type="stmt"/>
-        <line num="60" count="1" type="stmt"/>
-        <line num="64" count="0" type="stmt"/>
-        <line num="68" count="0" type="stmt"/>
-        <line num="72" count="0" type="stmt"/>
-        <line num="76" count="6" type="cond" truecount="1" falsecount="1"/>
-        <line num="77" count="0" type="stmt"/>
-        <line num="81" count="6" type="stmt"/>
-        <line num="82" count="5" type="stmt"/>
-        <line num="83" count="4" type="cond" truecount="2" falsecount="0"/>
-        <line num="86" count="3" type="stmt"/>
-        <line num="88" count="2" type="stmt"/>
-        <line num="102" count="0" type="stmt"/>
+        <line num="68" count="8" type="stmt"/>
+        <line num="82" count="2" type="stmt"/>
+        <line num="89" count="2" type="stmt"/>
       </file>
     </package>
     <package name="module.domain.authentication.vo">
-      <metrics statements="44" coveredstatements="37" conditionals="20" coveredconditionals="17" methods="19" coveredmethods="15"/>
-      <file name="Email.ts" path="/home/antares/Documents/coodsTA/backbone/src/module/domain/authentication/vo/Email.ts">
-        <metrics statements="11" coveredstatements="10" conditionals="6" coveredconditionals="5" methods="4" coveredmethods="4"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="7" count="1" type="stmt"/>
-        <line num="9" count="5" type="stmt"/>
-        <line num="13" count="1" type="stmt"/>
-        <line num="19" count="6" type="stmt"/>
-        <line num="20" count="6" type="stmt"/>
-        <line num="25" count="6" type="cond" truecount="3" falsecount="1"/>
-        <line num="26" count="0" type="stmt"/>
-        <line num="29" count="6" type="cond" truecount="2" falsecount="0"/>
-        <line num="30" count="1" type="stmt"/>
-        <line num="33" count="5" type="stmt"/>
+      <metrics statements="44" coveredstatements="44" conditionals="20" coveredconditionals="20" methods="19" coveredmethods="19"/>
+      <file name="Email.ts" path="/home/antares/Documents/proj/CoodsTA/src/module/domain/authentication/vo/Email.ts">
+        <metrics statements="11" coveredstatements="11" conditionals="6" coveredconditionals="6" methods="4" coveredmethods="4"/>
+        <line num="1" count="6" type="stmt"/>
+        <line num="7" count="6" type="stmt"/>
+        <line num="9" count="53" type="stmt"/>
+        <line num="13" count="28" type="stmt"/>
+        <line num="19" count="60" type="stmt"/>
+        <line num="20" count="60" type="stmt"/>
+        <line num="25" count="65" type="cond" truecount="4" falsecount="0"/>
+        <line num="26" count="5" type="stmt"/>
+        <line num="29" count="60" type="cond" truecount="2" falsecount="0"/>
+        <line num="30" count="7" type="stmt"/>
+        <line num="33" count="53" type="stmt"/>
       </file>
-      <file name="Password.ts" path="/home/antares/Documents/coodsTA/backbone/src/module/domain/authentication/vo/Password.ts">
+      <file name="Password.ts" path="/home/antares/Documents/proj/CoodsTA/src/module/domain/authentication/vo/Password.ts">
         <metrics statements="9" coveredstatements="9" conditionals="4" coveredconditionals="4" methods="5" coveredmethods="5"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="8" count="1" type="stmt"/>
-        <line num="10" count="3" type="stmt"/>
-        <line num="14" count="2" type="stmt"/>
-        <line num="18" count="1" type="stmt"/>
-        <line num="22" count="3" type="cond" truecount="4" falsecount="0"/>
-        <line num="23" count="1" type="stmt"/>
-        <line num="25" count="2" type="stmt"/>
-        <line num="29" count="1" type="stmt"/>
+        <line num="1" count="6" type="stmt"/>
+        <line num="8" count="6" type="stmt"/>
+        <line num="10" count="55" type="stmt"/>
+        <line num="14" count="19" type="stmt"/>
+        <line num="18" count="12" type="stmt"/>
+        <line num="22" count="36" type="cond" truecount="4" falsecount="0"/>
+        <line num="23" count="5" type="stmt"/>
+        <line num="25" count="31" type="stmt"/>
+        <line num="29" count="24" type="stmt"/>
       </file>
-      <file name="UserName.ts" path="/home/antares/Documents/coodsTA/backbone/src/module/domain/authentication/vo/UserName.ts">
-        <metrics statements="11" coveredstatements="9" conditionals="8" coveredconditionals="6" methods="3" coveredmethods="3"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="7" count="1" type="stmt"/>
-        <line num="9" count="4" type="stmt"/>
-        <line num="13" count="1" type="stmt"/>
-        <line num="17" count="5" type="cond" truecount="3" falsecount="1"/>
-        <line num="18" count="0" type="stmt"/>
-        <line num="20" count="5" type="cond" truecount="2" falsecount="0"/>
-        <line num="21" count="1" type="stmt"/>
-        <line num="23" count="4" type="cond" truecount="1" falsecount="1"/>
-        <line num="24" count="0" type="stmt"/>
-        <line num="26" count="4" type="stmt"/>
+      <file name="UserName.ts" path="/home/antares/Documents/proj/CoodsTA/src/module/domain/authentication/vo/UserName.ts">
+        <metrics statements="11" coveredstatements="11" conditionals="8" coveredconditionals="8" methods="3" coveredmethods="3"/>
+        <line num="1" count="6" type="stmt"/>
+        <line num="7" count="6" type="stmt"/>
+        <line num="9" count="54" type="stmt"/>
+        <line num="13" count="25" type="stmt"/>
+        <line num="17" count="63" type="cond" truecount="4" falsecount="0"/>
+        <line num="18" count="5" type="stmt"/>
+        <line num="20" count="58" type="cond" truecount="2" falsecount="0"/>
+        <line num="21" count="3" type="stmt"/>
+        <line num="23" count="55" type="cond" truecount="2" falsecount="0"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="26" count="54" type="stmt"/>
       </file>
-      <file name="UserRole.ts" path="/home/antares/Documents/coodsTA/backbone/src/module/domain/authentication/vo/UserRole.ts">
-        <metrics statements="13" coveredstatements="9" conditionals="2" coveredconditionals="2" methods="7" coveredmethods="3"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="9" count="1" type="stmt"/>
-        <line num="11" count="2" type="stmt"/>
-        <line num="15" count="1" type="stmt"/>
-        <line num="19" count="0" type="stmt"/>
-        <line num="23" count="0" type="stmt"/>
-        <line num="27" count="3" type="stmt"/>
+      <file name="UserRole.ts" path="/home/antares/Documents/proj/CoodsTA/src/module/domain/authentication/vo/UserRole.ts">
+        <metrics statements="13" coveredstatements="13" conditionals="2" coveredconditionals="2" methods="7" coveredmethods="7"/>
+        <line num="1" count="6" type="stmt"/>
+        <line num="9" count="6" type="stmt"/>
+        <line num="11" count="58" type="stmt"/>
+        <line num="15" count="27" type="stmt"/>
+        <line num="19" count="4" type="stmt"/>
+        <line num="23" count="4" type="stmt"/>
+        <line num="27" count="55" type="stmt"/>
+        <line num="28" count="55" type="stmt"/>
+        <line num="30" count="55" type="cond" truecount="2" falsecount="0"/>
+        <line num="31" count="4" type="stmt"/>
+        <line num="33" count="51" type="stmt"/>
+        <line num="39" count="3" type="stmt"/>
+        <line num="43" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="module.domain.model">
+      <metrics statements="29" coveredstatements="29" conditionals="10" coveredconditionals="10" methods="15" coveredmethods="15"/>
+      <file name="Model.ts" path="/home/antares/Documents/proj/CoodsTA/src/module/domain/model/Model.ts">
+        <metrics statements="29" coveredstatements="29" conditionals="10" coveredconditionals="10" methods="15" coveredmethods="15"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="26" count="3" type="stmt"/>
+        <line num="28" count="33" type="stmt"/>
+        <line num="32" count="15" type="stmt"/>
+        <line num="36" count="15" type="stmt"/>
+        <line num="40" count="2" type="stmt"/>
+        <line num="44" count="14" type="stmt"/>
+        <line num="48" count="13" type="stmt"/>
+        <line num="52" count="13" type="stmt"/>
+        <line num="56" count="2" type="stmt"/>
+        <line num="60" count="11" type="stmt"/>
+        <line num="64" count="10" type="stmt"/>
+        <line num="68" count="15" type="stmt"/>
+        <line num="72" count="2" type="stmt"/>
+        <line num="76" count="2" type="stmt"/>
+        <line num="80" count="45" type="cond" truecount="2" falsecount="0"/>
+        <line num="81" count="3" type="stmt"/>
+        <line num="83" count="42" type="cond" truecount="4" falsecount="0"/>
+        <line num="84" count="3" type="stmt"/>
+        <line num="86" count="39" type="cond" truecount="4" falsecount="0"/>
+        <line num="87" count="3" type="stmt"/>
+        <line num="90" count="36" type="stmt"/>
+        <line num="91" count="35" type="stmt"/>
+        <line num="92" count="34" type="stmt"/>
+        <line num="94" count="33" type="stmt"/>
+        <line num="106" count="7" type="stmt"/>
+      </file>
+    </package>
+    <package name="module.domain.model.mapper">
+      <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="8" coveredmethods="8"/>
+      <file name="ModelMapper.ts" path="/home/antares/Documents/proj/CoodsTA/src/module/domain/model/mapper/ModelMapper.ts">
+        <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="8" coveredmethods="8"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="26" count="2" type="stmt"/>
         <line num="28" count="3" type="stmt"/>
-        <line num="30" count="3" type="cond" truecount="2" falsecount="0"/>
-        <line num="31" count="1" type="stmt"/>
-        <line num="33" count="2" type="stmt"/>
-        <line num="39" count="0" type="stmt"/>
-        <line num="43" count="0" type="stmt"/>
+        <line num="40" count="1" type="stmt"/>
+        <line num="53" count="1" type="stmt"/>
+        <line num="64" count="7" type="stmt"/>
+        <line num="77" count="2" type="stmt"/>
+        <line num="81" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="module.domain.model.vo">
+      <metrics statements="38" coveredstatements="38" conditionals="12" coveredconditionals="12" methods="20" coveredmethods="20"/>
+      <file name="Accuracy.ts" path="/home/antares/Documents/proj/CoodsTA/src/module/domain/model/vo/Accuracy.ts">
+        <metrics statements="12" coveredstatements="12" conditionals="8" coveredconditionals="8" methods="6" coveredmethods="6"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="9" count="4" type="stmt"/>
+        <line num="11" count="62" type="stmt"/>
+        <line num="15" count="19" type="stmt"/>
+        <line num="19" count="7" type="stmt"/>
+        <line num="23" count="7" type="cond" truecount="2" falsecount="0"/>
+        <line num="27" count="6" type="stmt"/>
+        <line num="31" count="68" type="cond" truecount="4" falsecount="0"/>
+        <line num="32" count="5" type="stmt"/>
+        <line num="34" count="63" type="cond" truecount="2" falsecount="0"/>
+        <line num="35" count="1" type="stmt"/>
+        <line num="37" count="62" type="stmt"/>
+      </file>
+      <file name="ModelStatus.ts" path="/home/antares/Documents/proj/CoodsTA/src/module/domain/model/vo/ModelStatus.ts">
+        <metrics statements="13" coveredstatements="13" conditionals="2" coveredconditionals="2" methods="7" coveredmethods="7"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="9" count="4" type="stmt"/>
+        <line num="11" count="57" type="stmt"/>
+        <line num="15" count="24" type="stmt"/>
+        <line num="19" count="7" type="stmt"/>
+        <line num="23" count="4" type="stmt"/>
+        <line num="27" count="54" type="stmt"/>
+        <line num="28" count="54" type="stmt"/>
+        <line num="30" count="54" type="cond" truecount="2" falsecount="0"/>
+        <line num="31" count="4" type="stmt"/>
+        <line num="33" count="50" type="stmt"/>
+        <line num="37" count="4" type="stmt"/>
+        <line num="41" count="3" type="stmt"/>
+      </file>
+      <file name="ModelType.ts" path="/home/antares/Documents/proj/CoodsTA/src/module/domain/model/vo/ModelType.ts">
+        <metrics statements="13" coveredstatements="13" conditionals="2" coveredconditionals="2" methods="7" coveredmethods="7"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="9" count="4" type="stmt"/>
+        <line num="11" count="59" type="stmt"/>
+        <line num="15" count="24" type="stmt"/>
+        <line num="19" count="5" type="stmt"/>
+        <line num="23" count="4" type="stmt"/>
+        <line num="27" count="56" type="stmt"/>
+        <line num="28" count="56" type="stmt"/>
+        <line num="30" count="56" type="cond" truecount="2" falsecount="0"/>
+        <line num="31" count="4" type="stmt"/>
+        <line num="33" count="52" type="stmt"/>
+        <line num="37" count="4" type="stmt"/>
+        <line num="41" count="3" type="stmt"/>
       </file>
     </package>
     <package name="module.domain.product">
-      <metrics statements="22" coveredstatements="13" conditionals="11" coveredconditionals="8" methods="12" coveredmethods="6"/>
-      <file name="Product.ts" path="/home/antares/Documents/coodsTA/backbone/src/module/domain/product/Product.ts">
-        <metrics statements="22" coveredstatements="13" conditionals="11" coveredconditionals="8" methods="12" coveredmethods="6"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="2" count="1" type="stmt"/>
-        <line num="24" count="1" type="stmt"/>
-        <line num="26" count="1" type="stmt"/>
-        <line num="30" count="0" type="stmt"/>
-        <line num="34" count="1" type="stmt"/>
-        <line num="38" count="1" type="stmt"/>
-        <line num="42" count="0" type="stmt"/>
-        <line num="46" count="0" type="stmt"/>
-        <line num="50" count="0" type="stmt"/>
+      <metrics statements="22" coveredstatements="22" conditionals="11" coveredconditionals="11" methods="12" coveredmethods="12"/>
+      <file name="Product.ts" path="/home/antares/Documents/proj/CoodsTA/src/module/domain/product/Product.ts">
+        <metrics statements="22" coveredstatements="22" conditionals="11" coveredconditionals="11" methods="12" coveredmethods="12"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="2" count="4" type="stmt"/>
+        <line num="24" count="4" type="stmt"/>
+        <line num="26" count="34" type="stmt"/>
+        <line num="30" count="15" type="stmt"/>
+        <line num="34" count="15" type="stmt"/>
+        <line num="38" count="15" type="stmt"/>
+        <line num="42" count="2" type="stmt"/>
+        <line num="46" count="11" type="stmt"/>
+        <line num="50" count="15" type="stmt"/>
+        <line num="54" count="14" type="stmt"/>
+        <line num="58" count="14" type="stmt"/>
+        <line num="62" count="11" type="stmt"/>
+        <line num="66" count="45" type="cond" truecount="2" falsecount="0"/>
+        <line num="67" count="3" type="stmt"/>
+        <line num="69" count="42" type="cond" truecount="5" falsecount="0"/>
+        <line num="70" count="5" type="stmt"/>
+        <line num="72" count="37" type="cond" truecount="4" falsecount="0"/>
+        <line num="73" count="2" type="stmt"/>
+        <line num="75" count="35" type="stmt"/>
+        <line num="77" count="34" type="stmt"/>
+        <line num="89" count="12" type="stmt"/>
+      </file>
+    </package>
+    <package name="module.domain.product.mapper">
+      <metrics statements="8" coveredstatements="8" conditionals="12" coveredconditionals="10" methods="8" coveredmethods="8"/>
+      <file name="ProductMap.ts" path="/home/antares/Documents/proj/CoodsTA/src/module/domain/product/mapper/ProductMap.ts">
+        <metrics statements="8" coveredstatements="8" conditionals="12" coveredconditionals="10" methods="8" coveredmethods="8"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="27" count="2" type="stmt"/>
+        <line num="29" count="7" type="stmt"/>
+        <line num="41" count="2" type="stmt"/>
         <line num="54" count="1" type="stmt"/>
-        <line num="58" count="1" type="stmt"/>
-        <line num="62" count="0" type="stmt"/>
-        <line num="66" count="1" type="cond" truecount="1" falsecount="1"/>
-        <line num="67" count="0" type="stmt"/>
-        <line num="69" count="1" type="cond" truecount="4" falsecount="1"/>
-        <line num="70" count="0" type="stmt"/>
-        <line num="72" count="1" type="cond" truecount="3" falsecount="1"/>
-        <line num="73" count="0" type="stmt"/>
-        <line num="75" count="1" type="stmt"/>
-        <line num="77" count="1" type="stmt"/>
-        <line num="89" count="0" type="stmt"/>
+        <line num="67" count="7" type="stmt"/>
+        <line num="80" count="2" type="stmt"/>
+        <line num="87" count="2" type="stmt"/>
       </file>
     </package>
     <package name="module.domain.product.vo">
-      <metrics statements="13" coveredstatements="8" conditionals="2" coveredconditionals="1" methods="7" coveredmethods="3"/>
-      <file name="Category.ts" path="/home/antares/Documents/coodsTA/backbone/src/module/domain/product/vo/Category.ts">
-        <metrics statements="13" coveredstatements="8" conditionals="2" coveredconditionals="1" methods="7" coveredmethods="3"/>
+      <metrics statements="13" coveredstatements="13" conditionals="2" coveredconditionals="2" methods="7" coveredmethods="7"/>
+      <file name="Category.ts" path="/home/antares/Documents/proj/CoodsTA/src/module/domain/product/vo/Category.ts">
+        <metrics statements="13" coveredstatements="13" conditionals="2" coveredconditionals="2" methods="7" coveredmethods="7"/>
+        <line num="1" count="5" type="stmt"/>
+        <line num="9" count="5" type="stmt"/>
+        <line num="11" count="58" type="stmt"/>
+        <line num="15" count="24" type="stmt"/>
+        <line num="19" count="5" type="stmt"/>
+        <line num="23" count="4" type="stmt"/>
+        <line num="27" count="55" type="stmt"/>
+        <line num="28" count="55" type="stmt"/>
+        <line num="30" count="55" type="cond" truecount="2" falsecount="0"/>
+        <line num="31" count="4" type="stmt"/>
+        <line num="33" count="51" type="stmt"/>
+        <line num="39" count="4" type="stmt"/>
+        <line num="43" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="module.domain.report">
+      <metrics statements="23" coveredstatements="23" conditionals="2" coveredconditionals="2" methods="15" coveredmethods="15"/>
+      <file name="Report.ts" path="/home/antares/Documents/proj/CoodsTA/src/module/domain/report/Report.ts">
+        <metrics statements="23" coveredstatements="23" conditionals="2" coveredconditionals="2" methods="15" coveredmethods="15"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="2" count="4" type="stmt"/>
+        <line num="3" count="4" type="stmt"/>
+        <line num="40" count="4" type="stmt"/>
+        <line num="42" count="40" type="stmt"/>
+        <line num="46" count="18" type="stmt"/>
+        <line num="50" count="21" type="stmt"/>
+        <line num="54" count="17" type="stmt"/>
+        <line num="58" count="15" type="stmt"/>
+        <line num="62" count="4" type="stmt"/>
+        <line num="66" count="2" type="stmt"/>
+        <line num="70" count="17" type="stmt"/>
+        <line num="74" count="2" type="stmt"/>
+        <line num="78" count="13" type="stmt"/>
+        <line num="82" count="16" type="stmt"/>
+        <line num="86" count="17" type="stmt"/>
+        <line num="90" count="18" type="stmt"/>
+        <line num="94" count="45" type="cond" truecount="2" falsecount="0"/>
+        <line num="95" count="3" type="stmt"/>
+        <line num="98" count="42" type="stmt"/>
+        <line num="99" count="41" type="stmt"/>
+        <line num="101" count="40" type="stmt"/>
+        <line num="114" count="15" type="stmt"/>
+      </file>
+    </package>
+    <package name="module.domain.report.mapper">
+      <metrics statements="8" coveredstatements="8" conditionals="10" coveredconditionals="9" methods="8" coveredmethods="8"/>
+      <file name="ReportMap.ts" path="/home/antares/Documents/proj/CoodsTA/src/module/domain/report/mapper/ReportMap.ts">
+        <metrics statements="8" coveredstatements="8" conditionals="10" coveredconditionals="9" methods="8" coveredmethods="8"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="41" count="3" type="stmt"/>
+        <line num="43" count="8" type="stmt"/>
+        <line num="65" count="2" type="stmt"/>
+        <line num="77" count="1" type="stmt"/>
+        <line num="85" count="10" type="stmt"/>
+        <line num="99" count="2" type="stmt"/>
+        <line num="103" count="5" type="stmt"/>
+      </file>
+    </package>
+    <package name="module.domain.report.vo">
+      <metrics statements="25" coveredstatements="25" conditionals="10" coveredconditionals="10" methods="13" coveredmethods="13"/>
+      <file name="AuthenticityResult.ts" path="/home/antares/Documents/proj/CoodsTA/src/module/domain/report/vo/AuthenticityResult.ts">
+        <metrics statements="13" coveredstatements="13" conditionals="2" coveredconditionals="2" methods="7" coveredmethods="7"/>
+        <line num="1" count="5" type="stmt"/>
+        <line num="9" count="5" type="stmt"/>
+        <line num="11" count="65" type="stmt"/>
+        <line num="15" count="28" type="stmt"/>
+        <line num="19" count="5" type="stmt"/>
+        <line num="23" count="4" type="stmt"/>
+        <line num="27" count="62" type="stmt"/>
+        <line num="28" count="62" type="stmt"/>
+        <line num="30" count="62" type="cond" truecount="2" falsecount="0"/>
+        <line num="31" count="4" type="stmt"/>
+        <line num="33" count="58" type="stmt"/>
+        <line num="39" count="4" type="stmt"/>
+        <line num="45" count="3" type="stmt"/>
+      </file>
+      <file name="ConfidenceScore.ts" path="/home/antares/Documents/proj/CoodsTA/src/module/domain/report/vo/ConfidenceScore.ts">
+        <metrics statements="12" coveredstatements="12" conditionals="8" coveredconditionals="8" methods="6" coveredmethods="6"/>
+        <line num="1" count="5" type="stmt"/>
+        <line num="9" count="5" type="stmt"/>
+        <line num="11" count="68" type="stmt"/>
+        <line num="15" count="23" type="stmt"/>
+        <line num="19" count="7" type="stmt"/>
+        <line num="23" count="7" type="cond" truecount="2" falsecount="0"/>
+        <line num="27" count="6" type="stmt"/>
+        <line num="31" count="74" type="cond" truecount="4" falsecount="0"/>
+        <line num="32" count="5" type="stmt"/>
+        <line num="34" count="69" type="cond" truecount="2" falsecount="0"/>
+        <line num="35" count="1" type="stmt"/>
+        <line num="37" count="68" type="stmt"/>
+      </file>
+    </package>
+    <package name="module.infrastructure.auth">
+      <metrics statements="30" coveredstatements="29" conditionals="14" coveredconditionals="14" methods="9" coveredmethods="9"/>
+      <file name="JWTService.ts" path="/home/antares/Documents/proj/CoodsTA/src/module/infrastructure/auth/JWTService.ts">
+        <metrics statements="30" coveredstatements="29" conditionals="14" coveredconditionals="14" methods="9" coveredmethods="9"/>
         <line num="1" count="1" type="stmt"/>
-        <line num="9" count="1" type="stmt"/>
-        <line num="11" count="1" type="stmt"/>
-        <line num="15" count="1" type="stmt"/>
-        <line num="19" count="0" type="stmt"/>
-        <line num="23" count="0" type="stmt"/>
-        <line num="27" count="1" type="stmt"/>
         <line num="28" count="1" type="stmt"/>
-        <line num="30" count="1" type="cond" truecount="1" falsecount="1"/>
-        <line num="31" count="0" type="stmt"/>
-        <line num="33" count="1" type="stmt"/>
-        <line num="39" count="0" type="stmt"/>
-        <line num="43" count="0" type="stmt"/>
+        <line num="32" count="25" type="stmt"/>
+        <line num="42" count="17" type="stmt"/>
+        <line num="45" count="17" type="stmt"/>
+        <line num="52" count="7" type="stmt"/>
+        <line num="55" count="7" type="stmt"/>
+        <line num="62" count="3" type="stmt"/>
+        <line num="72" count="6" type="stmt"/>
+        <line num="73" count="6" type="stmt"/>
+        <line num="74" count="2" type="stmt"/>
+        <line num="80" count="4" type="stmt"/>
+        <line num="88" count="6" type="stmt"/>
+        <line num="89" count="6" type="stmt"/>
+        <line num="90" count="2" type="stmt"/>
+        <line num="96" count="4" type="stmt"/>
+        <line num="104" count="3" type="stmt"/>
+        <line num="105" count="3" type="stmt"/>
+        <line num="106" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="107" count="2" type="stmt"/>
+        <line num="113" count="0" type="stmt"/>
+        <line num="121" count="3" type="stmt"/>
+        <line num="122" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="123" count="2" type="stmt"/>
+        <line num="125" count="1" type="stmt"/>
+        <line num="132" count="5" type="cond" truecount="4" falsecount="0"/>
+        <line num="133" count="3" type="stmt"/>
+        <line num="135" count="2" type="stmt"/>
+        <line num="140" count="1" type="stmt"/>
+        <line num="141" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="module.infrastructure.hash">
+      <metrics statements="18" coveredstatements="18" conditionals="14" coveredconditionals="14" methods="6" coveredmethods="6"/>
+      <file name="HashService.ts" path="/home/antares/Documents/proj/CoodsTA/src/module/infrastructure/hash/HashService.ts">
+        <metrics statements="18" coveredstatements="18" conditionals="14" coveredconditionals="14" methods="6" coveredmethods="6"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="19" count="32" type="cond" truecount="2" falsecount="0"/>
+        <line num="26" count="15" type="cond" truecount="4" falsecount="0"/>
+        <line num="27" count="4" type="stmt"/>
+        <line num="29" count="11" type="stmt"/>
+        <line num="30" count="11" type="stmt"/>
+        <line num="37" count="7" type="cond" truecount="4" falsecount="0"/>
+        <line num="38" count="4" type="stmt"/>
+        <line num="40" count="3" type="stmt"/>
+        <line num="47" count="7" type="stmt"/>
+        <line num="54" count="5" type="cond" truecount="4" falsecount="0"/>
+        <line num="55" count="2" type="stmt"/>
+        <line num="57" count="3" type="stmt"/>
+        <line num="65" count="8" type="stmt"/>
+        <line num="66" count="8" type="stmt"/>
+        <line num="71" count="1" type="stmt"/>
+        <line num="72" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="module.infrastructure.storage">
+      <metrics statements="64" coveredstatements="64" conditionals="16" coveredconditionals="16" methods="18" coveredmethods="18"/>
+      <file name="ModelStorageService.ts" path="/home/antares/Documents/proj/CoodsTA/src/module/infrastructure/storage/ModelStorageService.ts">
+        <metrics statements="28" coveredstatements="28" conditionals="8" coveredconditionals="8" methods="7" coveredmethods="7"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="38" count="1" type="stmt"/>
+        <line num="42" count="17" type="stmt"/>
+        <line num="43" count="17" type="stmt"/>
+        <line num="50" count="17" type="cond" truecount="2" falsecount="0"/>
+        <line num="51" count="15" type="stmt"/>
+        <line num="59" count="19" type="stmt"/>
+        <line num="61" count="19" type="cond" truecount="2" falsecount="0"/>
+        <line num="62" count="1" type="stmt"/>
+        <line num="64" count="18" type="cond" truecount="2" falsecount="0"/>
+        <line num="65" count="1" type="stmt"/>
+        <line num="73" count="17" type="stmt"/>
+        <line num="74" count="17" type="stmt"/>
+        <line num="75" count="17" type="stmt"/>
+        <line num="82" count="19" type="stmt"/>
+        <line num="84" count="17" type="stmt"/>
+        <line num="85" count="17" type="stmt"/>
+        <line num="87" count="17" type="stmt"/>
+        <line num="89" count="17" type="stmt"/>
+        <line num="100" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="101" count="1" type="stmt"/>
+        <line num="104" count="1" type="stmt"/>
+        <line num="105" count="1" type="stmt"/>
+        <line num="112" count="2" type="stmt"/>
+        <line num="117" count="1" type="stmt"/>
+        <line num="118" count="1" type="stmt"/>
+      </file>
+      <file name="StorageService.ts" path="/home/antares/Documents/proj/CoodsTA/src/module/infrastructure/storage/StorageService.ts">
+        <metrics statements="36" coveredstatements="36" conditionals="8" coveredconditionals="8" methods="11" coveredmethods="11"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="42" count="1" type="stmt"/>
+        <line num="46" count="20" type="stmt"/>
+        <line num="47" count="20" type="stmt"/>
+        <line num="54" count="20" type="cond" truecount="2" falsecount="0"/>
+        <line num="55" count="18" type="stmt"/>
+        <line num="63" count="16" type="cond" truecount="2" falsecount="0"/>
+        <line num="64" count="1" type="stmt"/>
+        <line num="66" count="15" type="cond" truecount="2" falsecount="0"/>
+        <line num="67" count="1" type="stmt"/>
+        <line num="75" count="14" type="stmt"/>
+        <line num="76" count="14" type="stmt"/>
+        <line num="77" count="14" type="stmt"/>
+        <line num="78" count="14" type="stmt"/>
+        <line num="85" count="16" type="stmt"/>
+        <line num="87" count="14" type="stmt"/>
+        <line num="88" count="14" type="stmt"/>
+        <line num="90" count="14" type="stmt"/>
+        <line num="92" count="14" type="stmt"/>
+        <line num="104" count="3" type="stmt"/>
+        <line num="111" count="4" type="stmt"/>
+        <line num="113" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="114" count="2" type="stmt"/>
+        <line num="117" count="2" type="stmt"/>
+        <line num="118" count="2" type="stmt"/>
+        <line num="125" count="2" type="stmt"/>
+        <line num="126" count="2" type="stmt"/>
+        <line num="133" count="2" type="stmt"/>
+        <line num="134" count="2" type="stmt"/>
+        <line num="141" count="1" type="stmt"/>
+        <line num="142" count="1" type="stmt"/>
+        <line num="147" count="1" type="stmt"/>
+        <line num="148" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="module.interface.controllers">
+      <metrics statements="68" coveredstatements="63" conditionals="37" coveredconditionals="30" methods="9" coveredmethods="9"/>
+      <file name="LoginController.ts" path="/home/antares/Documents/proj/CoodsTA/src/module/interface/controllers/LoginController.ts">
+        <metrics statements="12" coveredstatements="12" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="6" type="stmt"/>
+        <line num="12" count="6" type="stmt"/>
+        <line num="13" count="6" type="stmt"/>
+        <line num="15" count="6" type="stmt"/>
+        <line num="17" count="2" type="stmt"/>
+        <line num="19" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="21" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="22" count="2" type="stmt"/>
+        <line num="25" count="2" type="stmt"/>
+      </file>
+      <file name="RegisterController.ts" path="/home/antares/Documents/proj/CoodsTA/src/module/interface/controllers/RegisterController.ts">
+        <metrics statements="12" coveredstatements="12" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="6" type="stmt"/>
+        <line num="12" count="6" type="stmt"/>
+        <line num="13" count="6" type="stmt"/>
+        <line num="15" count="6" type="stmt"/>
+        <line num="17" count="2" type="stmt"/>
+        <line num="19" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="21" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="22" count="2" type="stmt"/>
+        <line num="25" count="2" type="stmt"/>
+      </file>
+      <file name="ReportController.ts" path="/home/antares/Documents/proj/CoodsTA/src/module/interface/controllers/ReportController.ts">
+        <metrics statements="44" coveredstatements="39" conditionals="29" coveredconditionals="22" methods="5" coveredmethods="5"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="16" count="16" type="stmt"/>
+        <line num="17" count="16" type="stmt"/>
+        <line num="21" count="4" type="cond" truecount="1" falsecount="1"/>
+        <line num="23" count="4" type="cond" truecount="3" falsecount="0"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="27" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="39" count="4" type="stmt"/>
+        <line num="40" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="41" count="1" type="stmt"/>
+        <line num="44" count="3" type="stmt"/>
+        <line num="46" count="3" type="stmt"/>
+        <line num="53" count="2" type="stmt"/>
+        <line num="55" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="57" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="58" count="1" type="stmt"/>
+        <line num="61" count="0" type="stmt"/>
+        <line num="69" count="4" type="stmt"/>
+        <line num="70" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="71" count="1" type="stmt"/>
+        <line num="74" count="3" type="stmt"/>
+        <line num="75" count="3" type="stmt"/>
+        <line num="77" count="3" type="stmt"/>
+        <line num="79" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="80" count="0" type="stmt"/>
+        <line num="88" count="7" type="stmt"/>
+        <line num="89" count="7" type="cond" truecount="2" falsecount="0"/>
+        <line num="90" count="1" type="stmt"/>
+        <line num="93" count="6" type="stmt"/>
+        <line num="94" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="95" count="1" type="stmt"/>
+        <line num="97" count="5" type="stmt"/>
+        <line num="99" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="100" count="1" type="stmt"/>
+        <line num="104" count="4" type="cond" truecount="4" falsecount="0"/>
+        <line num="105" count="1" type="stmt"/>
+        <line num="108" count="3" type="stmt"/>
+        <line num="110" count="3" type="stmt"/>
+        <line num="112" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="113" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="module.interface.http">
+      <metrics statements="7" coveredstatements="7" conditionals="4" coveredconditionals="4" methods="7" coveredmethods="7"/>
+      <file name="HttpTypes.ts" path="/home/antares/Documents/proj/CoodsTA/src/module/interface/http/HttpTypes.ts">
+        <metrics statements="7" coveredstatements="7" conditionals="4" coveredconditionals="4" methods="7" coveredmethods="7"/>
+        <line num="29" count="10" type="stmt"/>
+        <line num="30" count="5" type="stmt"/>
+        <line num="31" count="8" type="stmt"/>
+        <line num="32" count="6" type="cond" truecount="1" falsecount="0"/>
+        <line num="33" count="4" type="cond" truecount="1" falsecount="0"/>
+        <line num="34" count="4" type="cond" truecount="1" falsecount="0"/>
+        <line num="35" count="6" type="cond" truecount="1" falsecount="0"/>
+      </file>
+    </package>
+    <package name="module.interface.http.middleware">
+      <metrics statements="26" coveredstatements="26" conditionals="12" coveredconditionals="12" methods="4" coveredmethods="4"/>
+      <file name="AuthMiddleware.ts" path="/home/antares/Documents/proj/CoodsTA/src/module/interface/http/middleware/AuthMiddleware.ts">
+        <metrics statements="26" coveredstatements="26" conditionals="12" coveredconditionals="12" methods="4" coveredmethods="4"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="16" count="11" type="stmt"/>
+        <line num="19" count="11" type="stmt"/>
+        <line num="20" count="6" type="stmt"/>
+        <line num="22" count="6" type="cond" truecount="4" falsecount="0"/>
+        <line num="23" count="2" type="stmt"/>
+        <line num="24" count="2" type="stmt"/>
+        <line num="27" count="4" type="stmt"/>
+        <line num="29" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="30" count="1" type="stmt"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="34" count="3" type="stmt"/>
+        <line num="36" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="37" count="1" type="stmt"/>
+        <line num="38" count="1" type="stmt"/>
+        <line num="41" count="2" type="stmt"/>
+        <line num="42" count="2" type="stmt"/>
+        <line num="45" count="11" type="stmt"/>
+        <line num="46" count="5" type="stmt"/>
+        <line num="47" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="48" count="1" type="stmt"/>
+        <line num="49" count="1" type="stmt"/>
+        <line num="52" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="53" count="2" type="stmt"/>
+        <line num="54" count="2" type="stmt"/>
+        <line num="57" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="module.interface.presenters">
+      <metrics statements="12" coveredstatements="11" conditionals="6" coveredconditionals="3" methods="10" coveredmethods="9"/>
+      <file name="AuthPresenter.ts" path="/home/antares/Documents/proj/CoodsTA/src/module/interface/presenters/AuthPresenter.ts">
+        <metrics statements="4" coveredstatements="3" conditionals="2" coveredconditionals="1" methods="3" coveredmethods="2"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="42" count="2" type="stmt"/>
+        <line num="53" count="0" type="stmt"/>
+      </file>
+      <file name="ReportPresenter.ts" path="/home/antares/Documents/proj/CoodsTA/src/module/interface/presenters/ReportPresenter.ts">
+        <metrics statements="8" coveredstatements="8" conditionals="4" coveredconditionals="2" methods="7" coveredmethods="7"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="24" count="2" type="stmt"/>
+        <line num="35" count="3" type="stmt"/>
+        <line num="36" count="3" type="stmt"/>
+        <line num="38" count="3" type="stmt"/>
+        <line num="42" count="1" type="stmt"/>
+        <line num="56" count="3" type="stmt"/>
+        <line num="67" count="6" type="stmt"/>
       </file>
     </package>
     <package name="shared.core">
-      <metrics statements="16" coveredstatements="5" conditionals="12" coveredconditionals="0" methods="5" coveredmethods="2"/>
-      <file name="Entity.ts" path="/home/antares/Documents/coodsTA/backbone/src/shared/core/Entity.ts">
-        <metrics statements="9" coveredstatements="3" conditionals="6" coveredconditionals="0" methods="3" coveredmethods="1"/>
-        <line num="7" count="2" type="stmt"/>
-        <line num="13" count="3" type="stmt"/>
-        <line num="14" count="3" type="stmt"/>
-        <line num="19" count="0" type="stmt"/>
-        <line num="23" count="0" type="cond" truecount="0" falsecount="4"/>
-        <line num="24" count="0" type="stmt"/>
-        <line num="27" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="28" count="0" type="stmt"/>
-        <line num="31" count="0" type="stmt"/>
+      <metrics statements="20" coveredstatements="20" conditionals="12" coveredconditionals="12" methods="8" coveredmethods="8"/>
+      <file name="Entity.ts" path="/home/antares/Documents/proj/CoodsTA/src/shared/core/Entity.ts">
+        <metrics statements="9" coveredstatements="9" conditionals="6" coveredconditionals="6" methods="3" coveredmethods="3"/>
+        <line num="7" count="15" type="stmt"/>
+        <line num="13" count="152" type="stmt"/>
+        <line num="14" count="152" type="stmt"/>
+        <line num="19" count="6" type="stmt"/>
+        <line num="23" count="13" type="cond" truecount="4" falsecount="0"/>
+        <line num="24" count="2" type="stmt"/>
+        <line num="27" count="11" type="cond" truecount="2" falsecount="0"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="31" count="10" type="stmt"/>
       </file>
-      <file name="ValueObject.ts" path="/home/antares/Documents/coodsTA/backbone/src/shared/core/ValueObject.ts">
-        <metrics statements="7" coveredstatements="2" conditionals="6" coveredconditionals="0" methods="2" coveredmethods="1"/>
-        <line num="11" count="2" type="stmt"/>
-        <line num="15" count="15" type="stmt"/>
-        <line num="22" count="0" type="cond" truecount="0" falsecount="4"/>
-        <line num="23" count="0" type="stmt"/>
-        <line num="25" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="26" count="0" type="stmt"/>
-        <line num="28" count="0" type="stmt"/>
+      <file name="Result.ts" path="/home/antares/Documents/proj/CoodsTA/src/shared/core/Result.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="5" count="6" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="13" count="2" type="stmt"/>
+      </file>
+      <file name="ValueObject.ts" path="/home/antares/Documents/proj/CoodsTA/src/shared/core/ValueObject.ts">
+        <metrics statements="7" coveredstatements="7" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="2"/>
+        <line num="11" count="25" type="stmt"/>
+        <line num="15" count="603" type="stmt"/>
+        <line num="22" count="48" type="cond" truecount="4" falsecount="0"/>
+        <line num="23" count="2" type="stmt"/>
+        <line num="25" count="46" type="cond" truecount="2" falsecount="0"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="28" count="45" type="stmt"/>
       </file>
     </package>
   </project>

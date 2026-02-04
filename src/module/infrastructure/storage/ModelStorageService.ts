@@ -1,6 +1,6 @@
 import * as fs from 'fs';
 import * as path from 'path';
-import { randomUUID } from 'crypto';
+import { Buffer } from 'buffer';
 
 export interface ModelFileData {
     buffer: Buffer;

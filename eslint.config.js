@@ -18,7 +18,9 @@ export const ignores = [
   "generated/prisma/runtime/**",
   "prisma/**",
   "coverage/**",
-  "prisma.config.ts"
+  "prisma.config.ts",
+  "tests/**",
+  "report/**"
 ];
 
 /** @type {import("eslint").Linter.FlatConfig[]} */

@@ -1,4 +1,4 @@
-import express, { Application, Request, Response, NextFunction } from "express";
+import express, { Application, Request, Response } from "express";
 import cors from "cors";
 import { createApiRoutes, RouteControllers } from "./module/interface/routes";
 import { AuthMiddleware } from "./module/interface/http/middleware/AuthMiddleware";
@@ -100,12 +100,6 @@ export function createApp(): Application {
   // 404 handler
   app.use((req: Request, res: Response) => {
     res.status(404).json({ error: "Not found" });
-  });
-
-  // Error handler
-  app.use((err: Error, req: Request, res: Response, next: NextFunction) => {
-    console.error(err.stack);
-    res.status(500).json({ error: "Internal server error" });
   });
 
   return app;
