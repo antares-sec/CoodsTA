@@ -1,0 +1,88 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client-js"
+  output   = "../generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User{
+  id String @id 
+  email String @unique
+  name String?
+  password String?
+  role Role @default(USER)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @default(now())
+  identification Identifications[]
+}
+
+model Product{
+  id String @id
+  name String
+  imageUrl String?
+  imagePath String?
+  description String?
+  category Category @default(JERSEY)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @default(now())
+  identification Identifications[]
+}
+
+model Identifications{
+  id String @id
+  user User @relation(fields: [userId], references: [id])
+  userId String
+  product Product @relation(fields: [productId], references: [id])
+  productId String
+  authenticityResult IdentificationResult
+  confidenceScore Int
+  imagePath String?
+  createdAt DateTime @default(now())
+}
+
+model Model{
+  id String @id
+  modelType ModelType
+  version String
+  filePath String
+  accuracy Int
+  deploymentDate DateTime @default(now())
+  createdAt DateTime @default(now())
+  isActive ModelActive
+}
+
+enum ModelActive{
+  ACTIVE
+  DEACTIVATED
+}
+
+
+
+enum ModelType{
+  DETECTOR
+  CLASSIFICATOR
+}
+
+enum Category{
+  JERSEY
+  OTHERS
+}
+
+enum IdentificationResult{
+  GENUINE
+  COUNTERFEIT
+}
+
+enum Role{
+  USER
+  ADMIN
+}
